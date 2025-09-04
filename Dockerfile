@@ -1,4 +1,4 @@
-FROM alpine:3.20
+FROM alpine:latest
 
 # Install inotify-tools and bash
 RUN apk add --no-cache inotify-tools bash docker-cli
