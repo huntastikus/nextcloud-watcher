@@ -22,7 +22,7 @@ jobs:
       id: meta
       uses: docker/metadata-action@v4
       with:
-        images: huntastikus/adlist_http
+        images: huntastikus/nextcloud-watcher
         tags: |
           type=raw,value=latest
           type=raw,value={{date 'YYMMDDHHMM'}}
